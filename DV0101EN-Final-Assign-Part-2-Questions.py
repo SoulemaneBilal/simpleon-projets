@@ -152,8 +152,7 @@ def update_output_container(selected_statistics, input_year):
          # grouping data for plotting.
          # Hint:Use the columns Year and Automobile_Sales
         avr_vdata=yearly_data.groupby('Vehicle_Type')['Automobile_Sales'].mean().reset_index()
-        Y_chart3 = dcc.Graph( figure=px.bar(avr_vdata, x='Vehicle_Type', y='Automobile_Sales' ),title='Average Vehicles Sold by Vehicle Type in the year {}'.format(input_year))
-
+        Y_chart3 = dcc.Graph(figure=px.bar(avr_vdata, x='Vehicle_Type', y='Automobile_Sales', title='Average Vehicles Sold by Vehicle Type in the year {}'.format(input_year)))
     # Total Advertisement Expenditure for each vehicle using pie chart
          # grouping data for plotting.
          # Hint:Use the columns Vehicle_Type and Advertising_Expenditure
