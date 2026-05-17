@@ -1,0 +1,8 @@
+fhirpy
+requests
+numpy
+yfinance
+datasette
+dash
+plotly
+more_itertools
