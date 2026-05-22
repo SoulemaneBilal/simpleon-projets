@@ -6,3 +6,15 @@ datasette
 dash
 plotly
 more_itertools
+folium
+google
+pandas
+scikit-learn
+matplotlib
+seaborn
+scipy
+beautifulsoup4
+bs4
+sqlalchemy
+ipython-sql
+prettytable
