@@ -18,3 +18,4 @@ bs4
 sqlalchemy
 ipython-sql
 prettytable
+wget
